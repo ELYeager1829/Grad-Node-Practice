@@ -1,3 +1,6 @@
+
+console.log(__filename);
+console.log(__dirname);
 var url = 'http://mylogger.io/log';
 
 function log(message){
@@ -6,5 +9,5 @@ function log(message){
     console.log(message);
 }
 
-//exporting function
-module.exports = log;
+//exporting object
+module.exports = log;//making it public in order to access logger
