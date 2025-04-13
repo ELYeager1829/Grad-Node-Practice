@@ -6,5 +6,5 @@ function log(message){
     console.log(message);
 }
 
-//exporting object
-module.exports.log = log;//making it public in order to access logger
+//exporting function
+module.exports = log;

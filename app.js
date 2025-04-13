@@ -1,4 +1,7 @@
+var log = require('./logger');//used to load unfunction
 
-var logger = require('./logger');//used to load unfunction
 
-logger.log('message');// similar to ppb modularization
+log('message');// function being called dirctly
+ 
+
+//jshint app.js to scan for errors with constantss
