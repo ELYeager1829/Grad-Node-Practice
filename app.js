@@ -1,4 +1,4 @@
 
-var logger = require('./logger');//used to load unfunction
+var log = require('./logger');//used to load unfunction
 
-logger.log('message');// similar to ppb modularization
+log('message');// similar to ppb modularization
